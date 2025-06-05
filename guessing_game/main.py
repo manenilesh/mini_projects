@@ -17,7 +17,7 @@ def nuber_guessing_game():
             print("Your guess is too low! Try again.")
         
         elif user_guess > secret_number:
-            print("Your guess is High low! Try again.")
+            print("Your guess is too high! Try again.")
 
         else:
             print(f"Congratulations! You guessed the number {secret_number} correctly!")
